@@ -1,0 +1,41 @@
+img {
+    width: 300px;
+    height: 300px; 
+    margin: 100px;
+}
+
+.box1{
+    width:1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.box2{
+    width:1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.box3{
+    width:1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+.row1 {
+    padding: 20px;
+}
+
+.row2 {
+    padding: 20px;
+}
+
+.row3 {
+    padding: 20px;
+}
