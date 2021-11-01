@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="top-bar">
+            <p class="network">Network</p>
+        </div>
+        <div class="feed">
+            <p>Your Feed</p>
+        </div>
+        <div class="site">
+            <div class="left">
+                <img src="user-circle.png" alt="User Icon">
+                <p class="avatar">Add an Avatar</p>
+                <p class="james">James Doe</p>
+            </div>
+            <div class="right">
+                <div class="box">
+                    <div class ="inner-box">
+                        <p class="names">Neil M<p>
+                        <p><span id="likes-1">9 </span>like(s)</p>
+                        <button onclick="upLikes('#likes-1')">Like</button>
+                    </div>
+                    <div class="discord">
+                        <p>I just set up this new discord bot, let me know what you all think. <span class="link">link</span></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class ="inner-box">
+                        <p class="names">Nichole K<p>
+                        <p><span id="likes-2">12 </span>like(s)</p>
+                        <button onclick="upLikes('#likes-2')">Like</button>
+                    </div>
+                    <div class="comic">
+                        <p>Just finished my <span class="link">next comic</span>, check it out.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class ="inner-box">
+                        <p class="names">Jim R<p>
+                        <p><span id="likes-3">9 </span>like(s)</p>
+                        <button onclick="upLikes('#likes-3')">Like</button>
+                    </div>
+                    <div class="album">
+                        <p>I can't stop listening to the <span class="link">new album</span>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>     
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
